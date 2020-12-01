@@ -1,6 +1,6 @@
 @font-face {
     font-family: Cyberverse;
-    src: url(/font/cyberverse/Cyberverse\ Condensed.otf);
+    src: url(/font/cyberverse/Cyberverse\ Condensed\ Bold.otf);
 }
 *{
     box-sizing: border-box;
@@ -9,6 +9,7 @@ html {
     height: 100%;
 }
 body {
+    background-image: linear-gradient(to right, black, white, black);
     display: flex;
     min-height: 100%;
     margin: 0;
@@ -27,6 +28,7 @@ body {
 .hours, .minutes, .seconds {
     color: rgb(88, 152, 236);
     font-family: Cyberverse;
+    font-weight: lighter;
     margin: auto 5px;
 }
 .colon {
