@@ -1,6 +1,35 @@
-#digitalClock {
+@font-face {
+    font-family: Cyberverse;
+    src: url(/font/cyberverse/Cyberverse\ Condensed.otf);
+}
+*{
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
     display: flex;
-    color: #fff;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+#digitalClock {
+    background-color: black;
+    display: flex;
     font-size: 4rem;
-    
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+}
+.hours, .minutes, .seconds {
+    color: rgb(88, 152, 236);
+    font-family: Cyberverse;
+    margin: auto 5px;
+}
+.colon {
+    color: rgb(88, 152, 236);
+    margin: auto 5px;
 }

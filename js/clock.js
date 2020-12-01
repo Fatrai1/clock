@@ -1,3 +1,4 @@
+
 setInterval(()=>{
     const day = new Date();
  
@@ -11,7 +12,7 @@ setInterval(()=>{
     const s = new Date().getSeconds();
     
 
-    hour.innerHTML = h + ":";
-    minutes.innerHTML = m + ":";
+    hour.innerHTML = h;
+    minutes.innerHTML = m;
     seconds.innerHTML = s;
 })
