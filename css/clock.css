@@ -20,18 +20,15 @@ body {
 #digitalClock {
     background-color: black;
     display: flex;
-    font-size: 4rem;
+    
     justify-content: center;
     width: 400px;
     height: 150px;
 }
-.hours, .minutes, .seconds {
+.clock-face{
     color: rgb(88, 152, 236);
     font-family: Cyberverse;
+    font-size: 5rem;
     font-weight: lighter;
-    margin: auto 5px;
-}
-.colon {
-    color: rgb(88, 152, 236);
     margin: auto 5px;
 }
